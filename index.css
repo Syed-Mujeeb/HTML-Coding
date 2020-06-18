@@ -1,0 +1,126 @@
+/* Universal selector */
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin:0px;
+    font-family: 'Crimson Text', serif;   
+}
+/* Applying styles to Body */
+body{
+    background-color:#d2dae2;
+}
+/* Applying style to h3 */
+h3{ 
+    margin:13px 0px;
+}
+/* Root-container */
+.container{
+    height:1200px;
+    width:900px;
+    background-color:white;
+    display: flex;
+    border:5px solid #1e272e;
+  
+    margin:0px auto;
+
+}
+/* Left side of CV*/
+.left{
+    width:270px;
+    background-color: #1e272e;
+}
+/* Left-Top Image */
+.left-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:270px;
+    height:15%;
+    background-color: #dfe4ea;
+}
+/* Image Id selector */
+#profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin:0px auto;
+}
+/* Left side content - About Us ,Contact Us division */
+.left-content{
+    height:70%;  
+}
+/* Left container */
+#l-container{
+    background-color: #1e272e;
+    color: white;
+    width:200px;
+    margin:0px auto;
+}
+/* Right side of CV */
+.right{
+    width:70%;
+    background-color: white;
+}
+/* Right top of CV */
+.right-top{
+    height:15%;
+    padding-left: 40px;
+    padding-top:40px;  
+}
+/* Right middle content - Qualification table,carrer,coding and Languages known */
+.right-middle{
+    padding-left: 40px;
+}
+/* Applying CSS to table */
+  table,th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding:8px;  
+  }
+/* Qualification */
+.Qualification{
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+/* Skills division */
+.skills{
+    height:227px;
+    width: 235px;  
+}
+/* Skill box */
+.skill-outer{
+    height:10px;
+    width:100px;
+    border: 2px solid black;
+}
+/* Applying skills with percentage */
+/* Skills level */
+/* Level 1 - 90% */
+.skill1{
+    height:100%;
+    width:90%;
+    background-color:black;
+}
+/* Level 2 - 80% */
+.skill2{
+    height:100%;
+    width:80%;
+    background-color:black;
+}
+/* Level 3 - 60% */
+.skill3{
+    height:100%;
+    width:60%;
+    background-color:black;
+}
+/* Level 3 - 50% */
+.skill4{
+    height:100%;
+    width:50%;
+    background-color:black;
+}
+/* Right bottom signature */
+.signature{
+    margin-right: 45px;
+}
+
